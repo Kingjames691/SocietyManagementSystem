@@ -1,1 +1,29 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
 
+ul {
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 50px;
+    width: 100%;
+    background-color: #DCE1DC;
+    display: flex; 
+}
+
+ul li a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    display: block;
+    color: #626D66;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0; /*removes whitespace from edges*/
+}
