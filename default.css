@@ -8,7 +8,8 @@ ul {
     list-style-type: none;
     justify-content: flex-end;
     margin: 0;
-    padding-right: 50px;
+    gap: 50px;
+    padding-right: 150px;
     width: 100%;
     background-color: #DCE1DC;
     display: flex;
@@ -25,9 +26,15 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover {
-    background-color: #111111;
+ul li a:hover { 
+    background-color: #bec9c2;
+    border-radius: 25px;
+    transition: width 1s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+    width: 100px;
 }
+
 
 body {
     margin: 0; /*removes whitespace from edges*/
