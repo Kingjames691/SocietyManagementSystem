@@ -1,17 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
 nav {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 35px;
 }
 
 ul {
     list-style-type: none;
-    justify-content: left;
+    justify-content: right;
     margin: 0;
-    gap: 50px;
-    padding-right: 150px;
+    gap: 25px;
     width: 100%;
-    background-color: #DCE1DC;
+    background-color: #ffffff;
     display: flex;
     box-sizing: border-box;
 }
@@ -23,17 +32,13 @@ ul li a {
     display: block;
     color: #626D66;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 30px;
     text-decoration: none;
+    transition: background-color 0.4s ease;
 }
 
 ul li a:hover { 
-    background-color: #bec9c2;
-    border-radius: 25px;
-    transition: width 1s;
-    transition-timing-function: ease;
-    transition-delay: 2s;
-    width: 100px;
+    color: #174d3b;
 }
 
 
@@ -42,12 +47,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 {
-    padding-left: 50px;
+@keyframes headerAnimation {
+    from {backgrund-color: black;}
+    to {backgrund-color: #174d3b;}
 }
 
-
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #174d3b;
+    padding-left: 50px;
+    animation-name: headerAnimation;
+    animation-duration: 5s;
+}
 
 ul li a.active {
-    background-color: #580469;
+    color: #174d3b;
   }

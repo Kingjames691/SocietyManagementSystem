@@ -5,6 +5,15 @@
   padding: 16px;
 }
 
+/*Ensuring the header is all the way to the left*/
+header h1{
+  padding: 50px;
+}
+
+.container h1 {
+  padding-left: 0;
+}
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
