@@ -65,3 +65,19 @@ h1 {
 ul li a.active {
     color: #174d3b;
   }
+
+main h1 {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+    color: rgb(188, 182, 182);
+}
