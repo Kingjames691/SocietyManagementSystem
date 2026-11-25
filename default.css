@@ -30,15 +30,19 @@ ul li a {
     font-weight: 500;
     font-size: 17px;
     display: block;
-    color: #626D66;
+    color: #000000;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
     transition: background-color 0.4s ease;
 }
+ul li a.active {
+    background-color: #c92be9;
+  }
 
 ul li a:hover { 
-    color: #174d3b;
+    background-color: #c92be9;
+ 
 }
 
 
@@ -82,10 +86,8 @@ main h2 {
     color: rgb(188, 182, 182);
 }
 
-
-
-div {
+div.codebox{
     text-align: center;
 
-    
 }
+

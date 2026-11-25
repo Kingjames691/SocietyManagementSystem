@@ -1,11 +1,11 @@
 * {box-sizing: border-box}
 
-/* Add padding to containers */
+/* Adds padding to the containers */
 .container {
   padding: 16px;
 }
 
-/*Ensuring the header is all the way to the left*/
+/*Puts header to left*/
 header h1{
   padding: 50px;
 }
@@ -14,7 +14,7 @@ header h1{
   padding-left: 0;
 }
 
-/* Full-width input fields */
+/* makes the input fields the ful width */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -29,13 +29,13 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-/* Overwrite default styles of hr */
+/* Overwrites the default hr style */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit/register button */
+/* Styles the big reigister button */
 .regbtn {
   background-color: #471377;
   color: white;
@@ -51,12 +51,12 @@ hr {
   opacity:1;
 }
 
-/* Add a blue text color to links */
+/* makes the a tag blue*/
 a {
   color: dodgerblue;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
+/* Set a gray background */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
