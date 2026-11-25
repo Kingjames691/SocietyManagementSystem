@@ -43,6 +43,10 @@
       <input type="password" placeholder="Enter Password" name="pswrd" id="pswrd" required>
 
 
+      <!-- An element to toggle between password visibility -->
+      <input type="checkbox" onclick="pswVisability()">Show Password
+
+
   
       <label for="pswrd-repeat"><b>Repeat Password</b></label>
       <input type="password" placeholder="Repeat Password" name="pswrd-repeat" id="pswrd-repeat" required>
@@ -58,3 +62,23 @@
       <p>Already have an account? <a href="login.html">Log In</a>.</p>
     </div>
   </form>
+
+
+
+  <script>
+    function pswVisability() {
+  var x = document.getElementById("pswrd");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+
+
+
+
+
+
+  </script>
