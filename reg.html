@@ -50,6 +50,7 @@
   
       <label for="pswrd-repeat"><b>Repeat Password</b></label>
       <input type="password" placeholder="Repeat Password" name="pswrd-repeat" id="pswrd-repeat" required>
+      <input type="checkbox" onclick="pswVisability()">Show Password >
 
 
       <hr>
@@ -68,6 +69,8 @@
   <script>
     function pswVisability() {
   var x = document.getElementById("pswrd");
+  var x = document.getElementById("pswrd-repeat");
+
   if (x.type === "password") {
     x.type = "text";
   } else {
