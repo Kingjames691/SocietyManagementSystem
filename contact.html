@@ -4,30 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keele Events</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
-
-<header>
-    <h1>Contact</h1>
-
-    <nav>
-        <ul>
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html"class="active">Contact us</a></li>
-          
-            <li><a href="reg.html">Sign up</a></li>
-        </ul>
-    </nav>
-    
-</header>
-
-<main>
-
-</main>
 
 <body>
 
+    <header>
+        <h1>Contact</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html"class="active">Contact us</a></li>
+            
+                <li><a href="reg.html">Sign up</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <h3>Got a question? We'd love to hear it.</h3>
+
+        <!--Update this with the correct php page soon-->
+        <form class="contact-form" action="index.php" method="POST"> 
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="yourname@example.com"><br>
+            <textarea name="message" rows="10" cols="30" placeholder="How can we help?"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
 </body>
+
 </html>
 
